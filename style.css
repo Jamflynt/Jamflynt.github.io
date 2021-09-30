@@ -10,11 +10,13 @@
 html {
     scroll-behavior: smooth;
     background: #0E111A;
+    overflow-x: hidden;
+    color: #ADB9B7;
 }
 
 /* Navbar */
 nav {
-    position: sticky;
+    position: sticky !important;
     top: 0;
     display: flex;
     justify-content: space-around;
@@ -52,13 +54,13 @@ nav {
 }
 
 .nav-links li.active {
-     border-bottom: 5px solid red;
+     color: #5A763C;
+     border-bottom: 5px solid #ADB9B7;
      transition: all 0.3s ease;
 }
 
 .burger {
     display: none;
-
 }
 
 .burger div {
@@ -79,7 +81,8 @@ nav {
 @media screen and (max-width: 768px) {
     
     body {
-        overflow-x: hidden;
+        /* Removed because position: sticky did not work. Add back? */
+        /* overflow-x: hidden; */
     }
 
     .nav-links {
