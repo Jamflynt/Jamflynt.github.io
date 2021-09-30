@@ -23,3 +23,22 @@ const navSlide = () => {
 }
 
 navSlide();
+
+    const sections = document.querySelectorAll("section")
+    const navLi = document.querySelectorAll(".nav-links li");
+
+    window.addEventListener('scroll', ()=> {
+        let current = '';
+        sections.forEach( section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if(pageYOffset >= sectionTop){
+                current = section.getAttribute('id')
+            }
+        })
+        console.log(current);
+        // currentLine.forEach(li=> {
+        //     li.classList.remove('current'); 
+
+        // })
+    })

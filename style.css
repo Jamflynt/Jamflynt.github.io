@@ -7,6 +7,11 @@
     font-family: 'Dosis', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    background: #0E111A;
+}
+
 /* Navbar */
 nav {
     position: sticky;
@@ -16,6 +21,7 @@ nav {
     align-items: center;
     min-height: 8vh;
     background-color: #366576;
+    z-index: 2;
 }
 
  nav .logo {
@@ -43,6 +49,11 @@ nav {
 
 .nav-links li {
     list-style: none;
+}
+
+.nav-links li.active {
+     border-bottom: 5px solid red;
+     transition: all 0.3s ease;
 }
 
 .burger {
@@ -123,3 +134,50 @@ nav {
 
 
 /* Header */
+
+#header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/sprawlingMountains.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* About */
+#about {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Skills */
+
+#skills {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/sprawlingMountains.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Projects */
+#projects {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Contact */
+#contact {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/sprawlingMountains.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
