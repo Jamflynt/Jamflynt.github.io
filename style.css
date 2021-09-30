@@ -54,9 +54,7 @@ nav {
 }
 
 .nav-links li.active {
-     color: #5A763C;
      border-bottom: 5px solid #ADB9B7;
-     transition: all 0.3s ease;
 }
 
 .burger {
