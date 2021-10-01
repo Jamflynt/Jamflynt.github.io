@@ -79,10 +79,10 @@ nav {
 
 @media screen and (max-width: 768px) {
     
-    body {
+    /* body { */
         /* Removed because position: sticky did not work. Add back? */
         /* overflow-x: hidden; */
-    }
+    /* } */
 
     .nav-links {
         position: absolute;
@@ -217,7 +217,7 @@ nav {
     height: auto;
 }
 
-#about .container{
+#about .container {
     width: 100%;
     height: auto;
     display: flex;
@@ -234,18 +234,19 @@ nav {
 }
 
 #about .profileImage {
-    width: 800px;
-    height: 800px;
+    width: 450px;
+    height: 600px;
     background-image: url("images/profile1.png");
     background-position: center;
     background-repeat: no-repeat;
     border: 5px solid #ADB9B7;
     border-radius: 10px;
-    border-bottom: 50px;
 }
 
 #about p {
-    margin-top: 100px;
+    margin-top: 50px;
+    padding: 0 10vw;
+    font-size: 20px;
 }
 
 /* Skills */
