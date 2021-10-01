@@ -24,6 +24,8 @@ const navSlide = () => {
 
 navSlide();
 
+
+    // Navbar indicate what section currently on
     const sections = document.querySelectorAll("section")
     const navLi = document.querySelectorAll(".nav-links li");
 
