@@ -7,6 +7,10 @@
     font-family: 'Dosis', sans-serif;
 }
 
+*::before, *::after {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
     background: #0E111A;
@@ -182,28 +186,16 @@ nav {
     background: #366576;
     border: 2px solid #ADB9B7;
     box-shadow: 2px 2px 5px #0E111A;
-    transition: all 0.5s ease;
-}
-
-#header .nameTitle .container::before {
-    content: " ";
-    width: 190px;
-    height: 80px;
-    position: absolute;
-    border: 2px solid #ADB9B7;
-    transition: all 0.5s ease;
-}
-
-#header .nameTitle .btn-contain a {
     text-decoration: none;
     color: #ADB9B7;
     letter-spacing: 2px;
     font-size: 20px;
     text-shadow: 2px 2px 5px #0E111A;
+    transition: all 0.5s ease;
 }
 
 /* Header button animation */
-#header .nameTitle .container:hover::before {
+#header .nameTitle .btn-contain:hover::before {
     width: 209px;
     height: 68px;
     cursor: pointer;
@@ -255,10 +247,36 @@ nav {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url("images/sprawlingMountains.jpeg");
+    background-image: url("images/faileCov.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    text-align: center;
+}
+
+#skills h1 {
+    
+}
+
+#skills .container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#skills .containerLarge {
+    width: 30vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #ADB9B7;
+    padding: 30px 60px;
 }
 
 /* Projects */
