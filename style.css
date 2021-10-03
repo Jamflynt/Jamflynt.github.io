@@ -13,7 +13,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-    background: #0E111A;
+    background: #23221E;
     overflow-x: hidden;
     color: #ADB9B7;
 }
@@ -195,6 +195,8 @@ nav {
     transition: all 0.5s ease;
 }
 
+
+
 /* Header button animation */
 #header .nameTitle .btn-contain:hover::before {
     width: 209px;
@@ -303,7 +305,7 @@ nav {
 }
 
 #skills i {
-    font-size: 60px;
+    font-size: 90px;
 }
 
 /* Projects */
@@ -317,7 +319,7 @@ nav {
 }
 
 #projects .container {
-    width: 60vw;
+    width: 50vw;
     height: auto;
     display: flex;
     justify-content: center;
@@ -327,10 +329,16 @@ nav {
 
 #projects h1 {
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    margin-top: 90px;
+    padding-bottom: 50px;
     font-size: 50px;
     font-weight: 300;
+}
+
+#projects p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 #projects .showcase {
@@ -343,21 +351,21 @@ nav {
 }
 
 #projects .showcase li {
-    margin: 20px;
+    margin: 5px;
     margin-bottom: 75px;
-    filter: drop-shadow(1px 1px 3px #ADB9B7);
+    /* filter: drop-shadow(1px 1px 3px #ADB9B7); */
 }
 
 #projects .post-preview {
-    background-image: url("images/tubeTVThumb.png");
+    background-image: url("images/tubeTVGif.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 50%;
     position: relative;
     display: flex;
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     align-items: center;
     border: none;
     background-color: black;
@@ -365,6 +373,27 @@ nav {
     text-decoration: none;
     transition: all 0.5s ease;
 }
+
+#projects #videoBackground {
+    background-image: url("images/videoBackgroundGIF.gif");
+}
+
+#projects #tonyana {
+    background-image: url("images/tarotPic.png");
+}
+
+#projects #amanda {
+    background-image: url("images/amandaThumb.png");
+}
+
+#projects #fullWebpage {
+    background-image: url("images/fullWebpageThumb.png");
+}
+
+#projects #photoPage {
+    background-image: url("images/photoPageThumb.png");
+}
+
 #projects .post-preview:hover, .post-preview:focus {
     border: none;
     box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2),0 4px 10px 0 rgba(0,0,0,0.2);
@@ -386,6 +415,7 @@ nav {
 
 #projects .post-preview:hover::before {
     background-color: rgba(34, 39, 51, 0);
+    z-index: 2;
 }
 
 #projects .post-preview-title {
