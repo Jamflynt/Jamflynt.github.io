@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-attachment: fixed;
+}
+
 html {
     scroll-behavior: smooth;
     background: #0E111A;
@@ -149,6 +153,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    /* background-attachment: fixed; */
 }
 
 #header .container {
@@ -248,36 +253,64 @@ nav {
     width: 100vw;
     height: 100vh;
     background-image: url("images/faileCov.jpeg");
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #skills h1 {
-    
+    padding-top: 80px;
+    padding-bottom: 15px;
+    font-size: 60px;
+    font-weight: 300;
+    text-shadow: 2px 2px 5px #0E111A;
+}
+
+#skills p {
+    padding-bottom: 20px;
 }
 
 #skills .container {
-    width: 100vw;
+    width: 80vw;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
     text-align: center;
+    color: #ADB9B7;
+    text-shadow: 2px 2px 5px #0E111A;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    box-shadow: 2px 2px 5px #0E111A;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
 }
 
-#skills .containerLarge {
-    width: 30vw;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    border: 3px solid #ADB9B7;
-    padding: 30px 60px;
+#skills .container .iconsNode{
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
+
+#skills .container .iconsNo {
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+#skills .icons {
+    padding: 30px;
+}
+
+#skills i {
+    font-size: 60px;
+}
+
+
 
 /* Projects */
 #projects {
