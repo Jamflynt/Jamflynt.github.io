@@ -170,14 +170,14 @@ nav {
     text-transform: uppercase;
     letter-spacing: 20px;
     font-size: 8rem;
-    text-shadow: 2px 2px 5px #366576;
+    text-shadow: 2px 2px 3px #0E111A;
     font-weight: 500;
 }
 
 #header .nameTitle h2 {
     font-size: 3rem;
     margin-top: 1.5rem;
-    text-shadow: 2px 2px 5px #0E111A;
+    text-shadow: 2px 2px 3px #0E111A;
     margin-bottom: 100px;
     letter-spacing: 2px;
     font-weight: 500;
@@ -225,7 +225,7 @@ nav {
 
 #about h1 {
     margin-top: 80px;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 #about .profileImage {
@@ -266,29 +266,36 @@ nav {
 #skills h1 {
     padding-top: 80px;
     padding-bottom: 15px;
-    font-size: 60px;
-    font-weight: 300;
-    text-shadow: 2px 2px 5px #0E111A;
+    font-size: 80px;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px #0E111A;
 }
 
 #skills p {
     padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px #0E111A;
+    margin-top: 10px;
 }
 
 #skills .container {
     width: 80vw;
     height: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
     text-align: center;
     color: #ADB9B7;
     text-shadow: 2px 2px 5px #0E111A;
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-    box-shadow: 2px 2px 5px #0E111A;
+    box-shadow: 5px 5px 10px #0E111A;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     margin-bottom: 50px;
     padding-bottom: 20px;
+}
+
+#skills .containerGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
 }
 
 #skills .container .iconsNode{
@@ -332,8 +339,8 @@ nav {
     text-align: center;
     margin-top: 90px;
     padding-bottom: 50px;
-    font-size: 50px;
-    font-weight: 300;
+    font-size: 80px;
+    font-weight: 500;
 }
 
 #projects p {
@@ -466,7 +473,7 @@ nav {
     flex-direction: column;
     text-shadow: 2px 2px 5px #0E111A;
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-    box-shadow: 2px 2px 5px #0E111A;
+    box-shadow: 5px 5px 10px #0E111A;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     margin-top: 100px;
@@ -503,8 +510,8 @@ nav {
     flex-direction: column;
     text-align: left;
     padding: 20px;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 
 #contact .fields input {
@@ -512,6 +519,8 @@ nav {
     background-color: #23221E;
     color: #ADB9B7;
     font-size: 20px;
+    border: 2px solid #ADB9B7;
+    border-radius: 10px;
 }
 
 #contact textarea {
@@ -519,4 +528,30 @@ nav {
     background-color: #23221E;
     color: #ADB9B7;
     font-size: 20px;
+    border: 2px solid #ADB9B7;
+    border-radius: 10px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact .actions {
+    display: flex;
+    justify-content: left;
+    padding-left: 10px; 
+}
+
+#contact li {
+    padding: 10px 10px; 
+}
+
+#contact .button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: #ADB9B7;
+    text-shadow: 1px 1px 3px #0E111A;
+    background-color: #366576;
+    border-radius: 10px;
 }
