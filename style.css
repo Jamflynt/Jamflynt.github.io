@@ -440,7 +440,7 @@ nav {
 #contact {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-image: url("images/sprawlingMountains.jpeg");
     background-repeat: no-repeat;
     background-position: center;
@@ -450,6 +450,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 60px;
 }
 
 #contact h2 {
@@ -554,4 +555,14 @@ nav {
     text-shadow: 1px 1px 3px #0E111A;
     background-color: #366576;
     border-radius: 10px;
+}
+
+#contact .icons {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact a:visited {
+    color: #ADB9B7;
 }
