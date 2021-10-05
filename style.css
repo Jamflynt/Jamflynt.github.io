@@ -205,6 +205,27 @@ nav {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        height: auto;
+    }
+
+    #header .nameTitle {
+        margin-bottom: 40px;
+    }
+
+    #header .nameTitle h1 {
+        font-size: 6rem;
+    }
+    #header .nameTitle h2 {
+        font-size: 2rem;
+    }
+}
+
 
 /* About */
 #about {
@@ -243,6 +264,17 @@ nav {
     margin-top: 20px;
     padding: 0 20vw;
     font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #about h1 {
+        margin-top: 60px;
+        font-size: 60px;
+    }
+
+    #about p {
+        padding: 0 10vw;
+    }
 }
 
 /* Skills */
@@ -309,11 +341,22 @@ nav {
 }
 
 #skills .icons {
-    padding: 30px;
+    padding: 20px;
 }
 
 #skills i {
-    font-size: 90px;
+    font-size: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    #skills h1 {
+        font-size: 60px;
+    }
+
+    #skills .container .iconsNo {
+        font-size: 25px;
+        padding-top: 25px;
+    }
 }
 
 /* Projects */
@@ -436,6 +479,20 @@ nav {
     font-size: 1.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+    #projects .container {
+        width: 80vw;
+        height: auto;
+    }
+}    
+
+@media screen and (max-width: 768px) {
+    #projects .container {
+        width: 80vw;
+        height: auto;
+    }
+}
+
 /* Contact */
 #contact {
     position: relative;
@@ -454,6 +511,7 @@ nav {
 }
 
 #contact h2 {
+    margin-top: 20px;
     font-size: 80px;
     font-weight: 500;
     text-align: center;
@@ -566,3 +624,18 @@ nav {
 #contact a:visited {
     color: #ADB9B7;
 }
+
+
+
+@media screen and (max-width: 1300px) {
+    #contact .container {
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #contact .container {
+        width: 80vw;
+        height: auto;
+    }
+}    
