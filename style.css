@@ -272,11 +272,16 @@ div.headingBar {
     filter: drop-shadow(10px 1px 20px #366576);
     /* border: 10px solid white; */
 }
-
 #about p {
     margin-top: 20px;
     padding: 0 20vw;
     font-size: 20px;
+}
+#about p a {
+    margin-top: 20px;
+    padding: 0 20vw;
+    font-size: 20px;
+    color: #ADB9B7
 }
 
 @media screen and (max-width: 768px) {
@@ -670,3 +675,11 @@ div.headingBar {
         font-size: 26px;
     }
 }    
+
+footer {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: #366576;
+    font-size: 18px;
+}
