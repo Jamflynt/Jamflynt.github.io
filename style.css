@@ -84,10 +84,10 @@ nav {
 
 @media screen and (max-width: 768px) {
     
-    /* body { */
+    body {
         /* Removed because position: sticky did not work. Add back? */
-        /* overflow-x: hidden; */
-    /* } */
+        overflow-x: hidden;
+    }
 
     .nav-links {
         position: absolute;
