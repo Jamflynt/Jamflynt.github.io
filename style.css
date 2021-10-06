@@ -758,7 +758,62 @@ div.headingBar {
         text-shadow: 2px 2px 5px #0E111A;
         font-size: 26px;
     }
-}    
+}   
+
+@media screen and (max-width: 400px) {
+    #contact h2 {
+        margin-top: 40px;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    #contact p {
+        text-align: center;
+        text-shadow: 2px 2px 5px #0E111A;
+        font-size: 18px;
+    }
+    
+    #contact .container {
+        width: 90vw;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    #contact .fields {
+        grid-template-columns: repeat(2, 50%);
+        font-size: 20px;
+    }
+    
+    #contact .contactText1 {
+        padding: 10px;
+        grid-column-start: 1;
+        grid-column-end: 3;   
+    }
+    
+    #contact .contactText2 {
+        padding: 10px;    
+        grid-column-start: 1;
+        grid-column-end: 3;  
+    }
+    
+    #contact li {
+        padding: 5px 3px; 
+    }
+    
+    #contact .button {
+        width: 130px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    #contact .icons {
+        font-size: 30px;
+    }
+    
+    #contact a:visited {
+        color: #ADB9B7;
+    }
+}
+
 
 footer {
     width: 100vw;
