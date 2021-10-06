@@ -142,6 +142,17 @@ nav {
 
 /* Header */
 
+div.headingBar {
+    width: 10%;
+    height: 10px;
+    background-color: #ADB9B7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 4px #0E111A;
+    margin-top: 20px;
+}
+
+
 #header {
     position: relative;
     width: 100vw;
@@ -184,25 +195,27 @@ nav {
 }
 
 #header .nameTitle .btn-contain{
-    padding: 20px 60px;
+    padding: 15px 60px;
     background: #366576;
     border: 2px solid #ADB9B7;
     box-shadow: 2px 2px 5px #0E111A;
     text-decoration: none;
     color: #ADB9B7;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 26px;
     text-shadow: 2px 2px 5px #0E111A;
     transition: all 0.5s ease;
+    border-radius: 5px;
 }
 
 
 
 /* Header button animation */
-#header .nameTitle .btn-contain:hover::before {
-    width: 209px;
-    height: 68px;
+#header .nameTitle .btn-contain:hover {
     cursor: pointer;
+    text-shadow: 4px 3px 15px #0E111A;
+    box-shadow: 3px 3px 10px #0E111A;
+    border-radius: 7px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -297,10 +310,13 @@ nav {
 
 #skills h1 {
     padding-top: 80px;
-    padding-bottom: 15px;
     font-size: 80px;
     font-weight: 500;
     text-shadow: 2px 2px 3px #0E111A;
+}
+
+#skills div.headingBar {
+    margin-bottom: 40px;
 }
 
 #skills p {
@@ -637,5 +653,11 @@ nav {
     #contact .container {
         width: 80vw;
         height: auto;
+    }
+
+    #contact p {
+        text-align: center;
+        text-shadow: 2px 2px 5px #0E111A;
+        font-size: 26px;
     }
 }    
