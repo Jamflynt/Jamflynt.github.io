@@ -653,6 +653,15 @@ div.headingBar {
     #contact .container {
         width: 80vw;
         height: auto;
+        margin-top: 50px;
+    }
+
+    #contact h2 {
+        margin-top: 80px;
+        font-size: 65px;
+        font-weight: 500;
+        text-align: center;
+        text-shadow: 2px 2px 5px #0E111A;
     }
 
     #contact p {
