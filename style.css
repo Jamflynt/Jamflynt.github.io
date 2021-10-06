@@ -432,8 +432,8 @@ div.headingBar {
 
     #skills p {
         padding-bottom: 10px;
-        font-size: 18px;
-        font-weight: 300;
+        font-size: 20px;
+        font-weight: 400;
     }
     #skills i {
         font-size: 30px;
@@ -571,6 +571,30 @@ div.headingBar {
     #projects .container {
         width: 80vw;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #projects h1 {
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 50px;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    #projects p {
+        font-size: 16px;
+    }
+
+    #projects .post-preview {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    #projects .post-preview-title {
+        padding: 0.3rem;
+        font-size: 1rem;
     }
 }
 
