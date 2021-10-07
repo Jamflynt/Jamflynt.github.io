@@ -370,10 +370,11 @@ div.headingBar {
 }
 
 #skills p {
+    color: #0E111A;
     padding-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
-    text-shadow: 1px 1px 3px #0E111A;
+    text-shadow: 1px 1px 3px #ADB9B7;
     margin-top: 10px;
 }
 
@@ -640,8 +641,9 @@ div.headingBar {
 }
 
 #contact p {
+    color: #0E111A;
     text-align: center;
-    text-shadow: 2px 2px 5px #0E111A;
+    text-shadow: 2px 2px 5px #ADB9B7;
     font-size: 20px;
 }
 
@@ -769,15 +771,9 @@ div.headingBar {
         text-align: center;
         text-shadow: 2px 2px 5px #0E111A;
     }
-
-    #contact p {
-        text-align: center;
-        text-shadow: 2px 2px 5px #0E111A;
-        font-size: 26px;
-    }
 }   
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
     #contact h2 {
         margin-top: 40px;
         font-size: 40px;
