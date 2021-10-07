@@ -439,9 +439,11 @@ div.headingBar {
     }
 
     #skills p {
+        color: #0E111A;
         padding-bottom: 10px;
         font-size: 20px;
         font-weight: 400;
+        text-shadow: 1px 1px 3px #ADB9B7;
     }
     #skills i {
         font-size: 30px;
@@ -781,15 +783,16 @@ div.headingBar {
     }
 
     #contact p {
+        color: #0E111A;
         text-align: center;
-        text-shadow: 2px 2px 5px #0E111A;
+        text-shadow: 2px 2px 5px #ADB9B7;
         font-size: 18px;
     }
     
     #contact .container {
         width: 90vw;
         margin-top: 50px;
-        padding: 30px;
+        padding: 20px;
     }
     #contact .fields {
         grid-template-columns: repeat(2, 50%);
