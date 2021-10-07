@@ -39,7 +39,7 @@ nav {
  .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 45%;
     text-decoration: none;
     letter-spacing: 3px;
 }
@@ -75,7 +75,7 @@ nav {
 
 @media screen and (max-width: 1024px) {
     nav .nav-links {
-        width: 45%;
+        width: 55%;
     }
 }
 
@@ -301,7 +301,7 @@ div.headingBar {
 #about p a {
     margin-top: 20px;
     padding: 0 20vw;
-    font-size: 20px;
+    font-size: 24px;
     color: #ADB9B7
 }
 
@@ -319,7 +319,7 @@ div.headingBar {
 
     #about p a {
         padding: 0 10vw;
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -371,7 +371,7 @@ div.headingBar {
 
 #skills p {
     color: #0E111A;
-    padding-bottom: 20px;
+    padding: 10px 20px;
     font-size: 20px;
     font-weight: 500;
     text-shadow: 1px 1px 3px #ADB9B7;
@@ -659,7 +659,7 @@ div.headingBar {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    margin-top: 100px;
+    margin-top: 60px;
     padding: 50px;
 }
 
