@@ -10,14 +10,15 @@
 html {
     scroll-behavior: smooth;
     background: #23221E;
-    overflow-x: hidden;
     color: #ADB9B7;
+    /* Interfering with position sticky on cell phone view */
+    overflow-x: hidden;
 }
 
 /* Navbar */
 nav {
     position: sticky !important;
-    top: 0;
+    top: 0 !important;
     display: flex;
     justify-content: space-around;
     align-items: center;
