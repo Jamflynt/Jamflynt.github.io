@@ -7,10 +7,6 @@
     font-family: 'Dosis', sans-serif;
 }
 
-body {
-    background-attachment: fixed;
-}
-
 html {
     scroll-behavior: smooth;
     background: #23221E;
@@ -85,7 +81,7 @@ nav {
 @media screen and (max-width: 768px) {
     
     body {
-        /* Removed because position: sticky did not work. Add back? */
+        /* Removed because position: sticky did not work. What would a work around for this be in CSS? */
         overflow-x: hidden;
     }
 
@@ -307,14 +303,21 @@ div.headingBar {
     color: #ADB9B7
 }
 
+@media screen and (max-width: 1080px) {
+    #about p {
+        padding: 0 10vw;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #about h1 {
         margin-top: 60px;
         font-size: 60px;
     }
 
-    #about p {
+    #about p a {
         padding: 0 10vw;
+        font-size: 18px;
     }
 }
 
@@ -437,6 +440,10 @@ div.headingBar {
     }
     #skills i {
         font-size: 30px;
+    }
+
+    #skills .icons {
+        font-size: 14px;
     }
 }
 
