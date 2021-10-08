@@ -206,18 +206,12 @@ div.headingBar {
     border-radius: 5px;
 }
 
-
-
 /* Header button animation */
 #header .nameTitle .btn-contain:hover {
     cursor: pointer;
     text-shadow: 4px 3px 15px #0E111A;
     box-shadow: 3px 3px 10px #0E111A;
     border-radius: 7px;
-}
-
-@media screen and (max-width: 1024px) {
-
 }
 
 @media screen and (max-width: 768px) {
@@ -237,7 +231,7 @@ div.headingBar {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
 
     #header .nameTitle {
         margin-bottom: 40px;
@@ -323,14 +317,20 @@ div.headingBar {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     #about h1 {
-        margin-top: 60px;
-        font-size: 50px;
+        margin-top: 40px;
+        font-size: 40px;
     }
 
     #about p {
         padding: 0 5vw;
+    }
+
+    #about .profileImage {
+        background-size: 200px;
+        width: 200px;
+        height: 250px;
     }
 
     #about p a {
@@ -431,7 +431,7 @@ div.headingBar {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     #skills h1 {
         font-size: 40px;
     }
@@ -591,7 +591,7 @@ div.headingBar {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     #projects h1 {
         text-align: center;
         margin-top: 30px;
@@ -745,6 +745,11 @@ div.headingBar {
     justify-content: center;
 }
 
+#contact a {
+    text-decoration: none;
+    color: #ADB9B7;
+}
+
 #contact a:visited {
     color: #ADB9B7;
 }
@@ -771,7 +776,7 @@ div.headingBar {
         text-align: center;
         text-shadow: 2px 2px 5px #0E111A;
     }
-}   
+} 
 
 @media screen and (max-width: 768px) {
     #contact h2 {
@@ -827,7 +832,6 @@ div.headingBar {
         color: #ADB9B7;
     }
 }
-
 
 footer {
     width: 100vw;
