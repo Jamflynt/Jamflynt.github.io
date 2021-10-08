@@ -217,6 +217,7 @@ div.headingBar {
 @media screen and (max-width: 768px) {
     #header {
         height: auto;
+        background-attachment: scroll;
     }
 
     #header .nameTitle {
@@ -417,6 +418,10 @@ div.headingBar {
 }
 
 @media screen and (max-width: 768px) {
+    #skills {
+        background-attachment: scroll;
+    }
+    
     #skills h1 {
         font-size: 60px;
     }
@@ -779,6 +784,10 @@ div.headingBar {
 } 
 
 @media screen and (max-width: 768px) {
+    #contact {
+        background-attachment: scroll;
+    }
+    
     #contact h2 {
         margin-top: 40px;
         font-size: 40px;
