@@ -83,14 +83,14 @@ nav {
 @media screen and (max-width: 768px) {
     
     body {
-        /* Removed because position: sticky did not work. What would a work around for this be in CSS? */
+        /* Causes position: sticky to not work. What would a work around for this be in CSS? */
         overflow-x: hidden;
     }
 
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 68vh;
         top: 8vh;
         background-color: #366576;
         display: flex;
