@@ -742,6 +742,7 @@ div.headingBar {
     text-shadow: 1px 1px 3px #0E111A;
     background-color: #366576;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #contact .icons {
