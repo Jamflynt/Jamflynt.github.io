@@ -187,9 +187,33 @@ div.headingBar {
     font-size: 3rem;
     margin-top: 1.5rem;
     text-shadow: 2px 2px 3px #0E111A;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
     letter-spacing: 2px;
     font-weight: 500;
+}
+
+#header ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+#header li {
+    padding: 10px 10px; 
+}
+
+#header .icons {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#header a {
+    text-decoration: none;
+    color: #ADB9B7;
+}
+
+#header a:visited {
+    color: #ADB9B7;
 }
 
 #header .nameTitle .btn-contain{
