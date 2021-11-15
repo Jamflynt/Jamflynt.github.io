@@ -559,6 +559,10 @@ div.headingBar {
     background-image: url("images/passGenThumb.png");
 }
 
+#projects #rotate-nav {
+    background-image: url("images/rotatingNavThumb.gif");
+}
+
 #projects .post-preview:hover, .post-preview:focus {
     border: none;
     box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2),0 4px 10px 0 rgba(0,0,0,0.2);
