@@ -559,8 +559,8 @@ div.headingBar {
     background-image: url("images/tarotPic.png");
 }
 
-#projects #amanda {
-    background-image: url("images/amandaThumb.png");
+#projects #flask {
+    background-image: url("images/flask.gif");
 }
 
 #projects #fullWebpage {
@@ -585,6 +585,10 @@ div.headingBar {
 
 #projects #rotate-nav {
     background-image: url("images/rotatingNavThumb.gif");
+}
+
+#projects #pythonPong {
+    background-image: url("images/pong.webp");
 }
 
 #projects .post-preview:hover, .post-preview:focus {
