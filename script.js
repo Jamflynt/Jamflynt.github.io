@@ -1,5 +1,3 @@
-console.log("Hello!");
-
 // Navbar and Mobile Nav
 const navSlide = () => {
     const burger = document.querySelector(".burger");
